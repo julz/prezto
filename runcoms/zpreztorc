@@ -32,6 +32,9 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
+  'git' \
+  'syntax-highlighting' \
+  'archive' \
   'prompt'
 
 #
@@ -125,10 +128,17 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
   'root'
 
 # Set syntax highlighting styles.
+#zstyle ':prezto:module:syntax-highlighting' styles \
+#  'builtin' 'bg=blue' \
+#  'command' 'bg=blue' \
+#  'function' 'bg=blue'
+
 zstyle ':prezto:module:syntax-highlighting' styles \
-  'builtin' 'bg=blue' \
-  'command' 'bg=blue' \
-  'function' 'bg=blue'
+         'builtin' 'fg=166' \
+         'command' 'fg=166' \
+         'alias' 'fg=166' \
+         'path' 'fg=blue,bold' \
+         'function' 'fg=166'
 
 
 #
