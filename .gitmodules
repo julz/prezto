@@ -10,3 +10,6 @@
 [submodule "modules/opp/opp.zsh"]
 	path = modules/opp/opp.zsh
 	url = https://github.com/hchbaw/opp.zsh.git
+[submodule "modules/dwim"]
+	path = modules/dwim
+	url = https://github.com/oknowton/zsh-dwim.git

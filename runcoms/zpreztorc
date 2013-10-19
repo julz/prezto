@@ -35,7 +35,9 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'syntax-highlighting' \
   'archive' \
-  'prompt'
+  'prompt' \
+  'opp' \
+  'dwim'
 
 #
 # Editor
